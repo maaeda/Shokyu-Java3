@@ -29,7 +29,7 @@ public class start {
          */
 
 		System.out.println("プログラムを実行します");
-		MyFrame frame1 = new TextTest();
+		MyFrame frame1 = new ManyFigures();
 	}
 
 }
