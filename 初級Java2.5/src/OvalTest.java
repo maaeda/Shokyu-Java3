@@ -1,7 +1,8 @@
 public class OvalTest extends MyFrame{
     public void run() {
-        fillOval(30,40,50,100);
-        fillOval(130,40,50,100);
-        fillRect(30,200,150,10);
+        fillRect(40,40,50,20);
+        fillRect(20,60,90,20);
+        fillOval(30,80,20,20);
+        fillOval(80,80,20,20);
     }
 }

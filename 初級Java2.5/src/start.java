@@ -30,6 +30,7 @@ public class start {
 
 		System.out.println("プログラムを実行します");
 		MyFrame frame1 = new TextTest();
+		MyFrame frame2 = new OvalTest();
 	}
 
 }
