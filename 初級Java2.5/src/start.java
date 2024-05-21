@@ -29,7 +29,9 @@ public class start {
          */
 
 		System.out.println("プログラムを実行します");
-		MyFrame frame1 = new RectIf();
+		MyFrame frame1 = new RectIF4_1();
+		MyFrame frame2 = new RectIf4_2();
+		MyFrame frame3 = new RectIf4_3();
 	}
 
 }
