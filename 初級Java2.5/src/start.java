@@ -29,12 +29,8 @@ public class start {
          */
 
 		System.out.println("プログラムを実行します");
-<<<<<<< Updated upstream
-		MyFrame frame1 = new RectIf();
-=======
 		MyFrame frame1 = new additionalTask1();
 		MyFrame frame2 = new additionalTask2();
->>>>>>> Stashed changes
 	}
 
 }
