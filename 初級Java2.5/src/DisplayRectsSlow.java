@@ -7,7 +7,7 @@ public class DisplayRectsSlow extends MyFrame{
             clear();
 
             //図形を表示する
-            fillRect(x,80,10,100);
+            fillOval(x,80,100,100);
             x+=5;
             sleep(0.016);
         }
