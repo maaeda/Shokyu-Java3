@@ -1,48 +1,29 @@
 public class Animation extends MyFrame{
     public void run() {
-        int y = 100;
-        int crry =y;
-        int x = 30;
-        int cnt = 2;
-        while(true) {
-            while (x <= 200) {
-                //画面を消す
-                clear();
-                //図形を表示する
-                setColor(0, 128, 0);
-                fillRect(x, y, 10, 100);
-                x += 5;
-                sleep(0.016);
+        double y = 0;
+        double x = 0;
+        float count = 0;
+
+        while (true) {
+            clear();
+
+            //(2)四角形を表示する
+            setColor(0, 128, 0);
+            fillRect(200 + x * 100, 100 + y * 200, 30, 30);
+
+            x = Math.sin(count);
+            System.out.println(x);
+            y = Math.cos(count);
+            System.out.println(y);
+
+            // 下方向に跳ねさせるため
+            // yが負の値の場合は正の値にする
+            if (y < 0) {
+                y *= -1;
             }
-            while (y <= crry+100) {
-                //画面を消す
-                clear();
-                //図形を表示する
-                setColor(0, 128, 0);
-                fillRect(x, y, 10, 100);
-                y += 5;
-                sleep(0.016);
-            }
-            crry+=100;
-            while (x >= 30) {
-                //画面を消す
-                clear();
-                //図形を表示する
-                setColor(0, 128, 0);
-                fillRect(x, y, 10, 100);
-                x -= 5;
-                sleep(0.016);
-            }
-            while (y <= crry+100) {
-                //画面を消す
-                clear();
-                //図形を表示する
-                setColor(0, 128, 0);
-                fillRect(x, y, 10, 100);
-                y += 5;
-                sleep(0.016);
-            }
-            crry+=100;
+            count += 10 * Math.PI / 180;
+            sleep(0.016);
+
         }
     }
 }
