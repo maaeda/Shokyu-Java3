@@ -13,4 +13,9 @@ public class Car {
         frame.fillOval(x,y+50,50,50);
         frame.fillOval(x+100,y+50,50,50);
     }
+
+    public void move(){
+        x += vx;
+        y += vy;
+    }
 }
