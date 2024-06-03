@@ -30,6 +30,7 @@ public class start {
 
 		System.out.println("プログラムを実行します");
 		MyFrame f = new DisplayFaceVector();
+		f.setSize(600, 800);
 	}
 
 }
