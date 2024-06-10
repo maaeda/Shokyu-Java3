@@ -29,7 +29,7 @@ public class start {
          */
 
 		System.out.println("プログラムを実行します");
-		MyFrame f = new DisplayCars();
+		MyFrame f = new DisplayCarTrain();
 	}
 
 }
