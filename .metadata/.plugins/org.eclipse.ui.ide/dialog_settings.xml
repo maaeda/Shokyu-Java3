@@ -10,13 +10,10 @@
 	</section>
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
-		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-			<item value="C:\Users\pyu56\Documents\GitHub\ShootingGame"/>
-			<item value="C:\Users\pyu56\Documents\GitHub\ShootingGame\src"/>
-			<item value="C:\Users\pyu56\Documents\GitHub\Shokyu-Java3\初級Java2.5\src\out\production\初級Java2.5"/>
 			<item value="C:\Users\pyu56\Documents\GitHub\Shokyu-Java3\初級Java2.5\bin"/>
 			<item value="C:\Users\pyu56\Documents\GitHub\Shokyu-Java3\初級Java2.5\src"/>
 			<item value="C:\Users\pyu56\Documents\GitHub\Shokyu-Java3\初級Java2.5"/>
